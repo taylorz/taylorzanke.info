@@ -3,6 +3,8 @@ $primaryFont: Helvetica, Arial, sans-serif;
 $primaryFontWeight: 800;
 $fontSize: 14px;
 $lineHeight: 16px;
+$fontSizeMedium: calc(#{$fontSize} * 3);
+$lineHeightMedium: calc(#{$lineHeight} * 3);
 $fontSizeLarge: calc(#{$fontSize} * 4);
 $lineHeightLarge: calc(#{$lineHeight} * 4);
 $fontColor: #000000;
