@@ -1,0 +1,15 @@
+
+$primaryFont: Helvetica, Arial, sans-serif;
+$primaryFontWeight: 800;
+$fontSize: 14px;
+$lineHeight: 16px;
+$fontSizeLarge: calc(#{$fontSize} * 4);
+$lineHeightLarge: calc(#{$lineHeight} * 4);
+$fontColor: #000000;
+$fontColorLight: #eaeaea;
+
+$timing: .25s;
+$easingCubic: cubic-bezier(0.77, 0, 0.175, 1);
+$easingRegular: ease-in-out;
+$transitionCubic: all $timing $easingCubic;
+$transitionRegular: all $timing $easingRegular;

@@ -1,0 +1,28 @@
+@import '/mixins.scss';
+@import '/variables.scss';
+
+*{
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}//*
+
+body {
+  font-family: $primaryFont;
+  font-weight: $primaryFontWeight;
+  a {
+    text-decoration: none;
+    @include transition;
+    &:link {
+      color: $fontColor;
+    }
+    &:visited {
+      color: $fontColor;
+    }
+    &:hover {
+      color: $fontColorLight;
+      @include transition;
+    }
+    &:active {
+      color: $fontColorLight;
+    }
+  }
+}
