@@ -7,7 +7,7 @@ const Homepage = () => (
   <PageContainer className="homepage">
     <Grid container className="page-section">
       <Grid item xs={6}>Taylor Zanke</Grid>
-      <Grid item xs={6}>Information</Grid>
+      <Grid item xs={6}>Links</Grid>
     </Grid>
     <Grid container className="page-section">
       <Grid item xs={12}>
