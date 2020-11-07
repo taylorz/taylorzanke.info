@@ -1,12 +1,8 @@
 
-$primaryFont: Helvetica, Arial, sans-serif;
-$primaryFontWeight: 800;
-$fontSize: 14px;
-$lineHeight: 16px;
-$fontSizeMedium: calc(#{$fontSize} * 3);
-$lineHeightMedium: calc(#{$lineHeight} * 3);
-$fontSizeLarge: calc(#{$fontSize} * 6);
-$lineHeightLarge: calc(#{$lineHeight} * 6);
+$primaryFont: Monospace;
+$primaryFontWeight: 300;
+$fontSize: 12px;
+$lineHeight: 14px;
 $fontColor: #000000;
 $fontColorLight: #eaeaea;
 
@@ -15,3 +11,8 @@ $easingCubic: cubic-bezier(0.77, 0, 0.175, 1);
 $easingRegular: ease-in-out;
 $transitionCubic: all $timing $easingCubic;
 $transitionRegular: all $timing $easingRegular;
+
+$xs: 600px;
+$sm: 960px;
+$md: 1280px;
+$lg: 1920px;
